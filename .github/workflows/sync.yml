@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 4 * * *" # At 12PM UTC+8
+    - cron: "25 21 1,4,7,10,13,16,19,22,25,28 * *" # 每个月中，第 2、5、8、11、14、17、20、23、26、29 天的凌晨 5:25 执行一次。
   workflow_dispatch:
 
 jobs:
